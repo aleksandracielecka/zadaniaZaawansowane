@@ -1,4 +1,4 @@
-package org.example.zadanie3;
+package org.example.Excercise3;
 
 public class Circle extends Shape {
     private double radius;

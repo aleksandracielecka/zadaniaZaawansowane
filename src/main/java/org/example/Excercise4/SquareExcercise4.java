@@ -1,10 +1,12 @@
-package org.example.zadanie3;
+package org.example.Excercise4;
 
-public class Square extends Rectangle{
+import org.example.Excercise3.Rectangle;
+
+public class SquareExcercise4 extends RectangleExcercise4 {
 
 
 
-    public Square(String colour, boolean isFilled, double size) {
+    public SquareExcercise4(String colour, boolean isFilled, double size) {
         super(colour, isFilled, size, size);
     }
     @Override

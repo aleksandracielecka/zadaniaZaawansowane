@@ -1,6 +1,6 @@
-package org.example.zadanie3;
+package org.example.Excercise3;
 
-public class main3 {
+public class Main3 {
     public static void main(String[] args) {
 
 

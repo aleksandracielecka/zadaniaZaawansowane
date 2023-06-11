@@ -1,4 +1,4 @@
-package org.example.zadanie2;
+package org.example.Excercise2;
 
 public class Person {
     protected String name;

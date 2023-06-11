@@ -1,6 +1,6 @@
-package org.example.zadanie3;
+package org.example.Excercise3;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     protected double width;
     protected double length;
 
@@ -32,16 +32,17 @@ public class Rectangle extends Shape{
         this.length = length;
     }
 
-    public double getArea(){
-        return (length*width);
+    public double getArea() {
+        return length * width;
     }
 
-    public double getPerimeter(){
-        return(2*length+2*width);
+    public double getPerimeter() {
+        return 2 * length + 2 * width;
     }
-@Override
-   public String toString(){
-        return String.format("Rectangle with width= %f and length= %f which is a subclass off %s",width,length,super.toString());
 
-}
+    @Override
+    public String toString() {
+        return String.format("Rectangle with width= %f and length= %f which is a subclass off %s", width, length, super.toString());
+
+    }
 }

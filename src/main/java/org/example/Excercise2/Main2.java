@@ -1,6 +1,6 @@
-package org.example.zadanie2;
+package org.example.Excercise2;
 
-public class main2 {
+public class Main2 {
     public static void main(String[] args) {
         Person person = new Person("Wojtek", "Sienkiewicza 5");
         System.out.println(person);
