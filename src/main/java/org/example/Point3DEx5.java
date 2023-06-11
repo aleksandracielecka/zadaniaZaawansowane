@@ -1,9 +1,9 @@
 package org.example;
 
-public class Point3D extends Point2D {
+public class Point3DEx5 extends Point2DEx5 {
     private float z;
 
-    public Point3D(float x, float y, float z) {
+    public Point3DEx5(float x, float y, float z) {
         super(x, y);
         this.z = z;
     }

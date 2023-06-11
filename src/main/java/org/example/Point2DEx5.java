@@ -1,10 +1,10 @@
 package org.example;
 
-public class Point2D {
+public class Point2DEx5 {
     protected float x;
     protected float y;
 
-    public Point2D(float x, float y) {
+    public Point2DEx5(float x, float y) {
         this.x = x;
         this.y = y;
     }
